@@ -1,0 +1,1414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Flow>
+    <Attributes/>
+    <BaseEvent>ACCOUNT</BaseEvent>
+    <IsComponentService>false</IsComponentService>
+    <ExitPointType>APPLICATION</ExitPointType>
+    <InputFields>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>id</DisplayName>
+            <FieldName>@ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accDebLimit</DisplayName>
+            <FieldName>ACC.DEB.LIMIT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accountNo</DisplayName>
+            <FieldName>ACCOUNT.NO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accountNumber</DisplayName>
+            <FieldName>ACCOUNT.NUMBER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accountOfficer</DisplayName>
+            <FieldName>ACCOUNT.OFFICER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accountTitle1</DisplayName>
+            <FieldName>ACCOUNT.TITLE.1</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accountTitle2</DisplayName>
+            <FieldName>ACCOUNT.TITLE.2</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accountingCompany</DisplayName>
+            <FieldName>ACCOUNTING.COMPANY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrChgAmount</DisplayName>
+            <FieldName>ACCR.CHG.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrChgCateg</DisplayName>
+            <FieldName>ACCR.CHG.CATEG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrChgSusp</DisplayName>
+            <FieldName>ACCR.CHG.SUSP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrChgTrans</DisplayName>
+            <FieldName>ACCR.CHG.TRANS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCrAmount</DisplayName>
+            <FieldName>ACCR.CR.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCrCateg</DisplayName>
+            <FieldName>ACCR.CR.CATEG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCrSusp</DisplayName>
+            <FieldName>ACCR.CR.SUSP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCrTrans</DisplayName>
+            <FieldName>ACCR.CR.TRANS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCr2Amount</DisplayName>
+            <FieldName>ACCR.CR2.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCr2Categ</DisplayName>
+            <FieldName>ACCR.CR2.CATEG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCr2Susp</DisplayName>
+            <FieldName>ACCR.CR2.SUSP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrCr2Trans</DisplayName>
+            <FieldName>ACCR.CR2.TRANS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDrAmount</DisplayName>
+            <FieldName>ACCR.DR.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDrCateg</DisplayName>
+            <FieldName>ACCR.DR.CATEG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDrSusp</DisplayName>
+            <FieldName>ACCR.DR.SUSP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDrTrans</DisplayName>
+            <FieldName>ACCR.DR.TRANS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDr2Amount</DisplayName>
+            <FieldName>ACCR.DR2.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDr2Categ</DisplayName>
+            <FieldName>ACCR.DR2.CATEG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDr2Susp</DisplayName>
+            <FieldName>ACCR.DR2.SUSP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>accrDr2Trans</DisplayName>
+            <FieldName>ACCR.DR2.TRANS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>acctCreditInt</DisplayName>
+            <FieldName>ACCT.CREDIT.INT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>acctDebitInt</DisplayName>
+            <FieldName>ACCT.DEBIT.INT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>acctEntToday</DisplayName>
+            <FieldName>ACCT.ENT.TODAY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>acctId</DisplayName>
+            <FieldName>ACCT.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>allInOneProduct</DisplayName>
+            <FieldName>ALL.IN.ONE.PRODUCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>allowNetting</DisplayName>
+            <FieldName>ALLOW.NETTING</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>allowSepaTxn</DisplayName>
+            <FieldName>ALLOW.SEPA.TXN</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>altAcctId</DisplayName>
+            <FieldName>ALT.ACCT.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>altAcctType</DisplayName>
+            <FieldName>ALT.ACCT.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>amntLastCrAuto</DisplayName>
+            <FieldName>AMNT.LAST.CR.AUTO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>amntLastCrBank</DisplayName>
+            <FieldName>AMNT.LAST.CR.BANK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>amntLastCrCust</DisplayName>
+            <FieldName>AMNT.LAST.CR.CUST</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>amntLastDrAuto</DisplayName>
+            <FieldName>AMNT.LAST.DR.AUTO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>amntLastDrBank</DisplayName>
+            <FieldName>AMNT.LAST.DR.BANK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>amntLastDrCust</DisplayName>
+            <FieldName>AMNT.LAST.DR.CUST</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>apr</DisplayName>
+            <FieldName>APR</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>arrangementId</DisplayName>
+            <FieldName>ARRANGEMENT.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>auditDateTime</DisplayName>
+            <FieldName>AUDIT.DATE.TIME</FieldName>
+            <FieldType>decimal</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>auditorCode</DisplayName>
+            <FieldName>AUDITOR.CODE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>authoriser</DisplayName>
+            <FieldName>AUTHORISER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>autoPayAcct</DisplayName>
+            <FieldName>AUTO.PAY.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>autoRecCcy</DisplayName>
+            <FieldName>AUTO.REC.CCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>avAuthCrMvmt</DisplayName>
+            <FieldName>AV.AUTH.CR.MVMT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>avAuthDbMvmt</DisplayName>
+            <FieldName>AV.AUTH.DB.MVMT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>avNauCrMvmt</DisplayName>
+            <FieldName>AV.NAU.CR.MVMT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>avNauDbMvmt</DisplayName>
+            <FieldName>AV.NAU.DB.MVMT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>availableBal</DisplayName>
+            <FieldName>AVAILABLE.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>availableBalUpd</DisplayName>
+            <FieldName>AVAILABLE.BAL.UPD</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>availableDate</DisplayName>
+            <FieldName>AVAILABLE.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capBackValue</DisplayName>
+            <FieldName>CAP.BACK.VALUE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capDateC2Int</DisplayName>
+            <FieldName>CAP.DATE.C2.INT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capDateCharge</DisplayName>
+            <FieldName>CAP.DATE.CHARGE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capDateCrInt</DisplayName>
+            <FieldName>CAP.DATE.CR.INT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capDateD2Int</DisplayName>
+            <FieldName>CAP.DATE.D2.INT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capDateDrInt</DisplayName>
+            <FieldName>CAP.DATE.DR.INT</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>capDatePrm</DisplayName>
+            <FieldName>CAP.DATE.PRM</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>cashPoolGroup</DisplayName>
+            <FieldName>CASH.POOL.GROUP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>category</DisplayName>
+            <FieldName>CATEGORY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>chargeAccount</DisplayName>
+            <FieldName>CHARGE.ACCOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>chargeCcy</DisplayName>
+            <FieldName>CHARGE.CCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>chargeMkt</DisplayName>
+            <FieldName>CHARGE.MKT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>closedOnline</DisplayName>
+            <FieldName>CLOSED.ONLINE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>closureDate</DisplayName>
+            <FieldName>CLOSURE.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>closureNotes</DisplayName>
+            <FieldName>CLOSURE.NOTES</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>closureReason</DisplayName>
+            <FieldName>CLOSURE.REASON</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>coCode</DisplayName>
+            <FieldName>CO.CODE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>conChargeAccr</DisplayName>
+            <FieldName>CON.CHARGE.ACCR</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>conInterestAccr</DisplayName>
+            <FieldName>CON.INTEREST.ACCR</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>conditionGroup</DisplayName>
+            <FieldName>CONDITION.GROUP</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>consolKey</DisplayName>
+            <FieldName>CONSOL.KEY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>consolidateEnt</DisplayName>
+            <FieldName>CONSOLIDATE.ENT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>contingentBalCr</DisplayName>
+            <FieldName>CONTINGENT.BAL.CR</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>contingentBalDr</DisplayName>
+            <FieldName>CONTINGENT.BAL.DR</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>contingentInt</DisplayName>
+            <FieldName>CONTINGENT.INT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>countryRisk</DisplayName>
+            <FieldName>COUNTRY.RISK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>crAdjAmount</DisplayName>
+            <FieldName>CR.ADJ.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>cr2AdjAmount</DisplayName>
+            <FieldName>CR2.ADJ.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>creditCheck</DisplayName>
+            <FieldName>CREDIT.CHECK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>creditMovement</DisplayName>
+            <FieldName>CREDIT.MOVEMENT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>currNo</DisplayName>
+            <FieldName>CURR.NO</FieldName>
+            <FieldType>decimal</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>currency</DisplayName>
+            <FieldName>CURRENCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>currencyMarket</DisplayName>
+            <FieldName>CURRENCY.MARKET</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>customer</DisplayName>
+            <FieldName>CUSTOMER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>customerNo</DisplayName>
+            <FieldName>CUSTOMER.NO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastCrAuto</DisplayName>
+            <FieldName>DATE.LAST.CR.AUTO</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastCrBank</DisplayName>
+            <FieldName>DATE.LAST.CR.BANK</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastCrCust</DisplayName>
+            <FieldName>DATE.LAST.CR.CUST</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastDrAuto</DisplayName>
+            <FieldName>DATE.LAST.DR.AUTO</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastDrBank</DisplayName>
+            <FieldName>DATE.LAST.DR.BANK</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastDrCust</DisplayName>
+            <FieldName>DATE.LAST.DR.CUST</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateLastUpdate</DisplayName>
+            <FieldName>DATE.LAST.UPDATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dateTime</DisplayName>
+            <FieldName>DATE.TIME</FieldName>
+            <FieldType>decimal</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>debitMovement</DisplayName>
+            <FieldName>DEBIT.MOVEMENT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>deptCode</DisplayName>
+            <FieldName>DEPT.CODE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dispoExempt</DisplayName>
+            <FieldName>DISPO.EXEMPT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dispoOfficer</DisplayName>
+            <FieldName>DISPO.OFFICER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>drAdjAmount</DisplayName>
+            <FieldName>DR.ADJ.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>dr2AdjAmount</DisplayName>
+            <FieldName>DR2.ADJ.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>epBalance</DisplayName>
+            <FieldName>EP.BALANCE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>erBalance</DisplayName>
+            <FieldName>ER.BALANCE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>erValueDate</DisplayName>
+            <FieldName>ER.VALUE.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>event</DisplayName>
+            <FieldName>EVENT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>exposureDates</DisplayName>
+            <FieldName>EXPOSURE.DATES</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>field</DisplayName>
+            <FieldName>FIELD</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>firstAfDate</DisplayName>
+            <FieldName>FIRST.AF.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>forwardMvmts</DisplayName>
+            <FieldName>FORWARD.MVMTS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>fromDate</DisplayName>
+            <FieldName>FROM.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>fwdEntryHold</DisplayName>
+            <FieldName>FWD.ENTRY.HOLD</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>grpAcNo</DisplayName>
+            <FieldName>GRP.AC.NO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>grpCcy</DisplayName>
+            <FieldName>GRP.CCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>hvtFlag</DisplayName>
+            <FieldName>HVT.FLAG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icChargeId</DisplayName>
+            <FieldName>IC.CHARGE.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icLstProdCap</DisplayName>
+            <FieldName>IC.LST.PROD.CAP</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icNextCapDate</DisplayName>
+            <FieldName>IC.NEXT.CAP.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icProduct</DisplayName>
+            <FieldName>IC.PRODUCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaAddRemove</DisplayName>
+            <FieldName>ICA.ADD.REMOVE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaBackValue</DisplayName>
+            <FieldName>ICA.BACK.VALUE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaDistribRatio</DisplayName>
+            <FieldName>ICA.DISTRIB.RATIO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaDistribType</DisplayName>
+            <FieldName>ICA.DISTRIB.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaMainAccount</DisplayName>
+            <FieldName>ICA.MAIN.ACCOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaMainAcct</DisplayName>
+            <FieldName>ICA.MAIN.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaMainAcctInd</DisplayName>
+            <FieldName>ICA.MAIN.ACCT.IND</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaMainDate</DisplayName>
+            <FieldName>ICA.MAIN.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaMainRatio</DisplayName>
+            <FieldName>ICA.MAIN.RATIO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaNewMainAcc</DisplayName>
+            <FieldName>ICA.NEW.MAIN.ACC</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaPostInterest</DisplayName>
+            <FieldName>ICA.POST.INTEREST</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>icaStartDate</DisplayName>
+            <FieldName>ICA.START.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>inactivMarker</DisplayName>
+            <FieldName>INACTIV.MARKER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>industry</DisplayName>
+            <FieldName>INDUSTRY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>inputter</DisplayName>
+            <FieldName>INPUTTER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>intLiqCcy</DisplayName>
+            <FieldName>INT.LIQ.CCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>intLiquAcct</DisplayName>
+            <FieldName>INT.LIQU.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>intLiquType</DisplayName>
+            <FieldName>INT.LIQU.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>intNoBooking</DisplayName>
+            <FieldName>INT.NO.BOOKING</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>interestCcy</DisplayName>
+            <FieldName>INTEREST.CCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>interestCompAcct</DisplayName>
+            <FieldName>INTEREST.COMP.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>interestLiquAcct</DisplayName>
+            <FieldName>INTEREST.LIQU.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>interestMkt</DisplayName>
+            <FieldName>INTEREST.MKT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>jointHolder</DisplayName>
+            <FieldName>JOINT.HOLDER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>jointNotes</DisplayName>
+            <FieldName>JOINT.NOTES</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>lastComChgDate</DisplayName>
+            <FieldName>LAST.COM.CHG.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>ledgRecoWith</DisplayName>
+            <FieldName>LEDG.RECO.WITH</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>limitRef</DisplayName>
+            <FieldName>LIMIT.REF</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>linkToLimit</DisplayName>
+            <FieldName>LINK.TO.LIMIT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>liquidationMode</DisplayName>
+            <FieldName>LIQUIDATION.MODE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>lockIncThisMvmt</DisplayName>
+            <FieldName>LOCK.INC.THIS.MVMT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>lockedAmount</DisplayName>
+            <FieldName>LOCKED.AMOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>lockedWithLimit</DisplayName>
+            <FieldName>LOCKED.WITH.LIMIT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mandateAppl</DisplayName>
+            <FieldName>MANDATE.APPL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mandateRecord</DisplayName>
+            <FieldName>MANDATE.RECORD</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mandateReg</DisplayName>
+            <FieldName>MANDATE.REG</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>masterAccount</DisplayName>
+            <FieldName>MASTER.ACCOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>maxSubAccount</DisplayName>
+            <FieldName>MAX.SUB.ACCOUNT</FieldName>
+            <FieldType>decimal</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mnemonic</DisplayName>
+            <FieldName>MNEMONIC</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mvAlertRes1</DisplayName>
+            <FieldName>MV.ALERT.RES1</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mvAlertRes2</DisplayName>
+            <FieldName>MV.ALERT.RES2</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mvAlertRes3</DisplayName>
+            <FieldName>MV.ALERT.RES3</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mvAlertRes4</DisplayName>
+            <FieldName>MV.ALERT.RES4</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mvAlertRes5</DisplayName>
+            <FieldName>MV.ALERT.RES5</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>mvAlertRes6</DisplayName>
+            <FieldName>MV.ALERT.RES6</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>nextAcctCap</DisplayName>
+            <FieldName>NEXT.ACCT.CAP</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>nextAfDate</DisplayName>
+            <FieldName>NEXT.AF.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>nextExpDate</DisplayName>
+            <FieldName>NEXT.EXP.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>nextStmtDate</DisplayName>
+            <FieldName>NEXT.STMT.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>onlineActualBal</DisplayName>
+            <FieldName>ONLINE.ACTUAL.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>onlineClearedBal</DisplayName>
+            <FieldName>ONLINE.CLEARED.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openActualBal</DisplayName>
+            <FieldName>OPEN.ACTUAL.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openAssetType</DisplayName>
+            <FieldName>OPEN.ASSET.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openAvailableBal</DisplayName>
+            <FieldName>OPEN.AVAILABLE.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openCategory</DisplayName>
+            <FieldName>OPEN.CATEGORY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openClearedBal</DisplayName>
+            <FieldName>OPEN.CLEARED.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openValDatedBal</DisplayName>
+            <FieldName>OPEN.VAL.DATED.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>openingDate</DisplayName>
+            <FieldName>OPENING.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>operand</DisplayName>
+            <FieldName>OPERAND</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>origCcyPayment</DisplayName>
+            <FieldName>ORIG.CCY.PAYMENT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>originalAcct</DisplayName>
+            <FieldName>ORIGINAL.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>otherOfficer</DisplayName>
+            <FieldName>OTHER.OFFICER</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>ourExtAcctNo</DisplayName>
+            <FieldName>OUR.EXT.ACCT.NO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>overdueStatus</DisplayName>
+            <FieldName>OVERDUE.STATUS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>override</DisplayName>
+            <FieldName>OVERRIDE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>passbook</DisplayName>
+            <FieldName>PASSBOOK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>pendingId</DisplayName>
+            <FieldName>PENDING.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>portfolioNo</DisplayName>
+            <FieldName>PORTFOLIO.NO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>positionType</DisplayName>
+            <FieldName>POSITION.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>postingRestrict</DisplayName>
+            <FieldName>POSTING.RESTRICT</FieldName>
+            <FieldType>decimal</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>premiumFreq</DisplayName>
+            <FieldName>PREMIUM.FREQ</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>premiumType</DisplayName>
+            <FieldName>PREMIUM.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>prodcat</DisplayName>
+            <FieldName>PRODCAT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>prodccy</DisplayName>
+            <FieldName>PRODCCY</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>recoTolerance</DisplayName>
+            <FieldName>RECO.TOLERANCE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>reconcileAcct</DisplayName>
+            <FieldName>RECONCILE.ACCT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>recordStatus</DisplayName>
+            <FieldName>RECORD.STATUS</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>refDataItem</DisplayName>
+            <FieldName>REF.DATA.ITEM</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>refDataValue</DisplayName>
+            <FieldName>REF.DATA.VALUE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>referalCode</DisplayName>
+            <FieldName>REFERAL.CODE</FieldName>
+            <FieldType>decimal</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>relationCode</DisplayName>
+            <FieldName>RELATION.CODE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>requestId</DisplayName>
+            <FieldName>REQUEST.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>residence</DisplayName>
+            <FieldName>RESIDENCE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>samIdHist</DisplayName>
+            <FieldName>SAM.ID.HIST</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>sbGroupId</DisplayName>
+            <FieldName>SB.GROUP.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>sector</DisplayName>
+            <FieldName>SECTOR</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>serialNoFormat</DisplayName>
+            <FieldName>SERIAL.NO.FORMAT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>shadowAccount</DisplayName>
+            <FieldName>SHADOW.ACCOUNT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>shortTitle</DisplayName>
+            <FieldName>SHORT.TITLE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>singleLimit</DisplayName>
+            <FieldName>SINGLE.LIMIT</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>sourceId</DisplayName>
+            <FieldName>SOURCE.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>startYearBal</DisplayName>
+            <FieldName>START.YEAR.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>stmtRecoWith</DisplayName>
+            <FieldName>STMT.RECO.WITH</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>stockControlType</DisplayName>
+            <FieldName>STOCK.CONTROL.TYPE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>target</DisplayName>
+            <FieldName>TARGET</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>taxAtSettle</DisplayName>
+            <FieldName>TAX.AT.SETTLE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>taxSuspend</DisplayName>
+            <FieldName>TAX.SUSPEND</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tellerId</DisplayName>
+            <FieldName>TELLER.ID</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>totalPending</DisplayName>
+            <FieldName>TOTAL.PENDING</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tranLastCrAuto</DisplayName>
+            <FieldName>TRAN.LAST.CR.AUTO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tranLastCrBank</DisplayName>
+            <FieldName>TRAN.LAST.CR.BANK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tranLastCrCust</DisplayName>
+            <FieldName>TRAN.LAST.CR.CUST</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tranLastDrAuto</DisplayName>
+            <FieldName>TRAN.LAST.DR.AUTO</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tranLastDrBank</DisplayName>
+            <FieldName>TRAN.LAST.DR.BANK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>tranLastDrCust</DisplayName>
+            <FieldName>TRAN.LAST.DR.CUST</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>value</DisplayName>
+            <FieldName>VALUE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>valueDate</DisplayName>
+            <FieldName>VALUE.DATE</FieldName>
+            <FieldType>date</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>valueDatedBal</DisplayName>
+            <FieldName>VALUE.DATED.BAL</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>waiveLedgerFee</DisplayName>
+            <FieldName>WAIVE.LEDGER.FEE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>welcomePack</DisplayName>
+            <FieldName>WELCOME.PACK</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+        <Field xsi:type="applicationVersionField" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <DisplayName>workingBalance</DisplayName>
+            <FieldName>WORKING.BALANCE</FieldName>
+            <FieldType>string</FieldType>
+            <selected>true</selected>
+        </Field>
+    </InputFields>
+    <flowName>ACCOUNT</flowName>
+</Flow>

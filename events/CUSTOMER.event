@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Event>
+    <eventName>CUSTOMER</eventName>
+    <ExitPointType xsi:type="application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+        <ContractName>CUSTOMER</ContractName>
+        <ExitPoint>AUTH.ROUTINE</ExitPoint>
+    </ExitPointType>
+    <FlowName>CUSTOMER</FlowName>
+    <Overrides/>
+</Event>
